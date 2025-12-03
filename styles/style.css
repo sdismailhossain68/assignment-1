@@ -162,3 +162,75 @@ select:focus {
 .satellite-title {
     margin-left: 15px;
 }
+.donate {
+    margin-top: 50px;
+    text-align: center;
+
+}
+.donate-title {
+    margin-bottom: 16px;
+
+}
+.donate-text {
+    margin-bottom: 40px;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #555;
+}
+.amount-button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    width: 1600px;
+    max-width: 100%;
+    
+}
+.amount-btn {
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    background-color: white;
+    cursor: pointer;
+}
+.amount-btn:hover {
+    border-color: #C6E4D6;
+}
+.amount-btn.selected {
+    background-color: #C6E4D6;
+    border-color: #C6E4D6;
+    color: #1a1a1a;
+}
+.other-amount {
+    margin: 30px 0;
+}
+.other-amount input {
+    padding: 14px 20px;
+    font-size: 16px;
+    width: 580px;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+}
+.subscribe {
+    text-align: center;
+    margin-top: 150px;
+    border: 2px solid #C6E4D6;
+    border-radius: 12px;
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+}
+footer {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.footer-img {
+    margin-top: 20px;
+}
